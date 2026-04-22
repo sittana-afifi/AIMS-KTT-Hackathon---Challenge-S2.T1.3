@@ -82,6 +82,10 @@ to see the NDCG@5 metrics.
 * **Nudge Factor:** A `1.2` multiplier applied to products with an `origin_district` in Rwanda.
 * **Efficiency:** Optimized to run in under 30 seconds on standard CPU hardware.
 * **Reproducibility:** Fully automated data pipeline ensures identical results across environments.
+
+---
+
+My hardest decision was balancing the 1.2x Local-Boost against pure search relevance. In data science, there is a constant tension between "Objective Accuracy" and "Social Impact." I had to decide how much to "nudge" the algorithm before it started hurting the user experience. I ultimately chose the 1.2x multiplier because, while a global product might have a slightly higher text-match score, the contextual relevance of a Made-in-Rwanda item for a local user is an invisible variable that TF-IDF can't see. Choosing to prioritize the artisan’s livelihood over a 2% higher similarity score was a move from being a coder to being a community-focused engineer.
   
 ---
 
