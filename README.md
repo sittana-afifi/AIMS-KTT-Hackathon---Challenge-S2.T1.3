@@ -71,6 +71,8 @@ to see the NDCG@5 metrics.
 * **process_log.md:** Detailed log of the 4-hour build and technical decisions.
 * **dispatcher.md:** Strategy for SMS-based distribution for rural artisans.
 * **SIGNED.md:** Fellowship Honor Code signed by the developer.
+* **BUSINESS_STRATEGY.md:** Real-World Impact.
+  
 
 ---
 
