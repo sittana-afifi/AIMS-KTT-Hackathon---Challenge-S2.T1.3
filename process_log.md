@@ -1,7 +1,3 @@
-This is a high-level **`process_log.md`**. It combines your Excel data insights with the technical requirements of the fellowship. It shows the "Judge" that you are thinking like a Product Engineer, not just a coder.
-
----
-
 # Process Log: Made in Rwanda Recommender Challenge
 
 ## 1. Hour-by-Hour Timeline
